@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+header {
     width: 90%;
     margin: 0 auto;
 }
@@ -40,6 +40,11 @@ body {
 .nav li {
     display: inline;
     padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .hero {
