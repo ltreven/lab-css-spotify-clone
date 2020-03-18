@@ -6,3 +6,111 @@ Green: #00B172
 White: #FFF
 
 */
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    height: 40px;
+    width: 132px;
+}
+
+.logo > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.hero {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    color: white;
+}
+
+.whatson {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards {
+    width: 90%;
+    margin: 0 auto;    
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+}
+
+.card img {
+    max-width: 80px;
+    max-height: 80px;    
+}
+
+.card-title {
+    width: 90%;
+    margin: 0 auto;  
+    color: green;    
+    text-align: center;
+}
+
+.card-text {
+    width: 50%;
+    margin: 10px auto;  
+    color: dimgrey;    
+    text-align: center;
+}
+
+.kanye {
+    width: 90%;
+    margin: 0 auto;
+    background-color: green;
+    text-align: center;
+}
+
+.kanye-text {
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kanye-img {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
