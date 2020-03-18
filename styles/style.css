@@ -7,6 +7,10 @@ White: #FFF
 
 */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     width: 90%;
     margin: 0 auto;
@@ -64,11 +68,13 @@ White: #FFF
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding: 50px;
 }
 
 .cards {
     width: 90%;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    padding: 30px;  
 }
 
 .card {
@@ -100,6 +106,7 @@ White: #FFF
     margin: 0 auto;
     background-color: green;
     text-align: center;
+    padding: 50px;
 }
 
 .kanye-text {
@@ -107,6 +114,7 @@ White: #FFF
     width: 30%;
     display: inline-block;
     vertical-align: middle;
+    color: white;
 }
 
 .kanye-img {
